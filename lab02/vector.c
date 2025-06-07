@@ -125,7 +125,7 @@ void vector_set(vector_t *v, size_t loc, int value) {
 
     /* If we are passed a NULL pointer for our vector, complain about it and exit. */
     if(v == NULL) {
-        fprintf(stderr, "vector_get: passed a NULL vector.\n");
+        fprintf(stderr, "vector_set: passed a NULL vector.\n");
         abort();
     }
 
